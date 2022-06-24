@@ -1,0 +1,32 @@
+.navbar{
+  border-radius: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.arrow{
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+}
+
+@keyframes example {
+  0%   {margin-top: 0px;}
+  25%  {margin-top: 50px;}
+
+}
+
+.card{
+  padding: 10px;
+    background: rgba( 255, 255, 255, 0 );
+    /* box-shadow: 0 8px 32px 0 rgb(31 135 33 / 37%); */
+    backdrop-filter: blur( 60.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    -webkit-align-self: auto;
+    width: 100%;
+    filter: brightness(1.25);
+    box-shadow: inset 1px 1px 32px 2px rgb(31 135 33 / 37%);
+}

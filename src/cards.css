@@ -1,0 +1,13 @@
+div img{
+    filter: brightness(0.8);
+}
+
+.cardIcon{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.cardIcon svg{
+    display: inline;
+}

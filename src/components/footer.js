@@ -1,50 +1,18 @@
-import { IconButton, Button } from "@chakra-ui/button";
-import { useColorMode } from "@chakra-ui/color-mode";
-import { Flex, VStack, Heading, Spacer } from "@chakra-ui/layout";
-import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
-import Header from "./components/Header";
-import Profile from "./components/Profile";
-import './navbar.css'
-import Footer from "./components/footer";
-import {IoIosArrowDown} from 'react-icons/io'
 import {
-  ButtonGroup,
-  Container,
-  Divider,
-  Input,
-  Stack,
-  Text,
-} from '@chakra-ui/react'
-import { FaTwitter } from 'react-icons/fa'
-import { NavLink } from "react-router-dom";
-
-function App() {
-
-  const { colorMode, toggleColorMode } = useColorMode();
-  const isDark = colorMode === "dark";
-
-  return (
-    <VStack p={5}>
-      <Flex w="100%">
-        <Heading
-          ml="8" size="md" fontWeight='semibold'>InvestWick</Heading>
-
-        <Spacer></Spacer>
-        <NavLink to="/Auth">
-          <Button ml={2} isRound='true' > Sign In</Button>
-        </NavLink>
-        <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
-      </Flex>
-      <br></br>
-      <Header></Header>
-      <Heading className="arrow" fontSize={45}>Why Us?</Heading>
-      <IoIosArrowDown className="arrow" size={80}></IoIosArrowDown>
-      <br></br>
-      <br></br>
-      <Profile></Profile>
-      <br></br>
-      <br></br>
-      <Container as="footer" role="contentinfo" style={{display: "contents"}}>
+    Button,
+    ButtonGroup,
+    Container,
+    Divider,
+    IconButton,
+    Input,
+    Stack,
+    Text,
+  } from '@chakra-ui/react'
+  import * as React from 'react'
+  import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+  
+ function Footer() {
+    <Container as="footer" role="contentinfo">
       <Stack
         spacing="8"
         direction={{ base: 'column', md: 'row' }}
@@ -87,7 +55,7 @@ function App() {
             </Text>
             <Stack spacing="4" direction={{ base: 'column', sm: 'row' }} maxW={{ lg: '360px' }}>
               <Input placeholder="Enter your email" type="email" required />
-              <Button  type="submit" flexShrink={0}>
+              <Button variant="primary" type="submit" flexShrink={0}>
                 Subscribe
               </Button>
             </Stack>
@@ -103,7 +71,7 @@ function App() {
         align="center"
       >
         <Text fontSize="sm" color="subtle">
-          &copy; {new Date().getFullYear()} Investwick, Inc. All rights reserved.
+          &copy; {new Date().getFullYear()} Chakra UI Pro, Inc. All rights reserved.
         </Text>
         <ButtonGroup variant="ghost">
           <IconButton
@@ -117,8 +85,5 @@ function App() {
         </ButtonGroup>
       </Stack>
     </Container>
-    </VStack>
-  );
-}
-
-export default App;
+ }
+ export default Footer

@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Kollektif';
+  src: local('Kollektif'), url(/Users/arihanvaranasi/WebsiteProject/website/src/components/Kollektif-Bold.ttf) format('tff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.title{
+  /* font-family: 'Kollektif'; */
+  /* font-family: var(--chakra-fonts-heading); */
+  font-size: 100px;
+  /* -webkit-text-fill-color: rgba(0,0,0,0);
+  -webkit-box-decoration-break: clone;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  -webkit-background-clip: text; */
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+
+.tradeImage{
+  position: absolute;
+  right: 0;
+  margin-right: 4%;
+  top: 0;
+  margin-top: 50px;
+  filter: brightness(1.15);
+}
+
+.titleContainer{
+  padding: 20px;
+background: rgba( 255, 255, 255, 0 );
+box-shadow: 0 8px 32px 0 rgb(31 135 33 / 37%);
+backdrop-filter: blur( 60.5px );
+-webkit-backdrop-filter: blur( 9.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+-webkit-align-self: auto;
+width: 100%;
+filter: brightness(1.25);
+}
+
+.completeContainer{
+  -webkit-align-self: auto;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.test{
+  width: 90%
+}
+
+.dot {
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  border-radius: 50%;
+  display: block;
+  width: 300px;
+  height: 300px;
+  /* margin: 30px auto 0; */
+  left: 0;
+  /* background-color: #3b4ba3; */
+  position: absolute;
+  top: 1;
+  box-shadow: inset -25px -25px 40px rgb(0 0 0 / 50%);
+  margin-top: 70px;
+}
+.dot {
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    border-radius: 50%;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: 2%;
+    /* margin: 30px auto 0; */
+    left: 0;
+    /* background-color: #3b4ba3; */
+    position: absolute;
+    top: 1;
+    box-shadow: inset -2
+}
