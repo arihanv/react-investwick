@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-investwick/static/css/main.569ef124.css",
+    "main.js": "/react-investwick/static/js/main.f4e30ff2.js",
+    "static/media/greeksoft.png": "/react-investwick/static/media/greeksoft.a9bb56b384dfc8d06c04.png",
+    "static/media/autotrade.png": "/react-investwick/static/media/autotrade.9c6515d748c5c98d36f7.png",
+    "static/media/baseCubePurple.png": "/react-investwick/static/media/baseCubePurple.c73a383f09637b2165d8.png",
+    "static/media/lightningBlenderGreen.png": "/react-investwick/static/media/lightningBlenderGreen.5aa54668b4892a6940ac.png",
+    "static/media/candlesticks.png": "/react-investwick/static/media/candlesticks.ed4a665d6e93d334b5bc.png",
+    "static/media/robotRegular.png": "/react-investwick/static/media/robotRegular.3f02719f7f748c633221.png",
+    "static/media/Kollektif-Bold.ttf": "/react-investwick/static/media/Kollektif-Bold.d97641da7b1897b8ee19.ttf",
+    "index.html": "/react-investwick/index.html",
+    "main.569ef124.css.map": "/react-investwick/static/css/main.569ef124.css.map",
+    "main.f4e30ff2.js.map": "/react-investwick/static/js/main.f4e30ff2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.569ef124.css",
+    "static/js/main.f4e30ff2.js"
+  ]
+}
